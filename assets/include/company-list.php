@@ -1,0 +1,102 @@
+<div class="main-content">
+    <div class="page-content">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="col-xxl-4">
+                        <div class="card border card-border-light">
+                            <div class="card-header d-sm-flex align-items-center justify-content-between">
+                                <h6 class="card-title mb-0">COMPANY</h6>
+                                <div class="page-title-right ">
+                                    <ol class="breadcrumb m-0">
+                                        <li class="breadcrumb-item"><a href="javascript: void(0);">Home</a></li>
+                                        <li class="breadcrumb-item active">Company</li>
+                                    </ol>
+                                </div>
+                            </div>
+                            <div class="col-4">
+                                <a class="btn btn-primary" href="add-company.html">ADD COMPANY</a>
+                            </div>
+                            <div class="card-body">
+                                <div class="card border">
+                                    <div class="row my-3">
+                                        <h6 class="card-title mb-0">Search Consignor</h6>
+                                        <form>
+                                            <div class="row gx-3 gy-2 align-items-center">
+                                                <div class="col-sm-2">
+                                                    <label class="visually-hidden"
+                                                        for="specificSizeInputName">Name</label>
+                                                    <input type="text" class="form-control" id="specificSizeInputName"
+                                                        placeholder="Search....">
+                                                </div><!--end col-->
+                                                <div class="col-sm-4">
+                                                    <label class="visually-hidden"
+                                                        for="specificSizeInputGroupDate">Date</label>
+                                                    <div class="input-group">
+                                                        <input type="date" class="form-control"
+                                                            id="specificSizeInputGroupDate">
+                                                        <div class="input-group-text">to</div>
+                                                        <input type="date" class="form-control"
+                                                            id="specificSizeInputGroupDate">
+                                                    </div>
+                                                </div><!--end col-->
+                                                <div class="col-auto">
+                                                    <label class="visually-hidden"
+                                                        for="specificSizeSelect">Preference</label>
+                                                    <select class="form-select" id="specificSizeSelect">
+                                                        <option selected>Consignor Type</option>
+                                                        <option value="1">---</option>
+                                                    </select>
+                                                </div><!--end col-->
+                                                <div class="col-auto">
+                                                    <label class="visually-hidden"
+                                                        for="specificSizeSelect">Preference</label>
+                                                    <select class="form-select" id="specificSizeSelect">
+                                                        <option selected>Sales Exective</option>
+                                                        <option value="1">---</option>
+                                                        <option value="2">Two</option>
+                                                        <option value="3">Three</option>
+                                                    </select>
+                                                </div><!--end col--><!--end col-->
+                                                <div class="col-auto">
+                                                    <button type="submit" class="btn btn-primary">Search</button>
+                                                </div><!--end col-->
+                                            </div>
+                                        </form>
+                                    </div>
+                                </div>
+                                <div class="table-responsive">
+                                    <table class="table table-sm align-middle mb-0">
+                                        <thead class="table-light">
+                                            <tr>
+                                                <th scope="col"><small class="text-muted">#</th>
+                                                <th scope="col"><small class="text-muted">Name</th>
+                                                <th scope="col"><small class="text-muted">Email ID</th>
+                                                <th scope="col"><small class="text-muted">Phone No.</th>
+                                                <th scope="col"><small class="text-muted">GST</th>
+                                                <th scope="col"><small class="text-muted">Actions</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <th scope="row"><small class="text-muted">1</th>
+                                                <td><small class="text-muted">Bobby Davis</td>
+                                                <td><small class="text-muted">October 15, 2021</td>
+                                                <td><small class="text-muted">$2,300</td>
+                                                <td><small class="text-muted">$2,300</td>
+                                                <td><small class="text-muted"><a href="javascript:void(0);"
+                                                            class="link-success"><i class=" ri-edit-2-fill"></i></a><a
+                                                            href="javascript:void(0);" class="link-success"><i
+                                                                class="ri-delete-bin-3-fill"></i></a></td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
